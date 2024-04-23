@@ -26,9 +26,11 @@
   }
   
   /* Common CSS */
+  
   body,
   html {
     overflow-x: hidden !important;    
+    overflow-y: hidden !important;    
   }
   
   body {
@@ -1239,7 +1241,7 @@
   
   .box:nth-child(1) span {
     top: 50%;
-    left: 30px;
+    left: 30%;
     transform: translateY(-50%);
   }
   
@@ -1629,4 +1631,3 @@
       height: 65px;
     }
   }
-  

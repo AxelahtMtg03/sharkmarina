@@ -47,7 +47,7 @@
   /* Demo css -start */
   .info-section {
     height: 100svh;
-    min-height: 780px;
+    min-height: 725px;
     padding: 0 0 0 30px;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
     margin: 0;
     color: #fff;
     font-family: "Extenda Trial 30 Deca";
-    font-size: clamp(100px, 18.5vw, 282px);
+    font-size: clamp(100px, 18.5vw, 141px);
     line-height: 0.75;
     font-weight: normal;
     font-style: normal;
@@ -92,7 +92,7 @@
   .left-part h1 .text {
     color: #0074ff;
     display: block;
-    height: 200px;
+    height: 100px;
   }
   
   .left-part h1 .d-flex {
@@ -110,7 +110,7 @@
   }
   
   .left-part p {
-    width: 72%;
+    width: 75%;
     margin: 20px 0 0;
     color: #fff;
     font-size: 16px;
@@ -120,6 +120,7 @@
     font-family: "monument_extendedregular";
     opacity: 0.8;
   }
+  
 
   /* right part */
   .right-part {

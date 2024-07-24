@@ -33,7 +33,7 @@ body {
     text-decoration: none;
   }
   
-
+  
   
   .header .logo {
     display: block;
@@ -136,6 +136,13 @@ body {
       display: none;
     }
   }
+  header, main, footer {
+      width: var(--content-width);
+      margin: 0 auto;
+      padding: 1rem;
+      max-width: 100%;
+  }
+  
 .container {
 	width: 100%;
 	position: relative;

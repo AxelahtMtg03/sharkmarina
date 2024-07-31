@@ -4,8 +4,8 @@
 []mettre mon logo + mon portfolio qqpart
 [X]carte [marina + moi]
 []trouvez de belle img [marina + moi]
+[] si image fini faire les alt
 []le text [marina]
-
 []faute d'orthographe [marina + prof]
 []finir le projet
 []Tout testez

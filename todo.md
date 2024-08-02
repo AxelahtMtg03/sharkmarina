@@ -3,6 +3,7 @@
 [X]source en bas de chaque part avec des traits jolie
 []mettre mon logo + mon portfolio qqpart
 [X]carte [marina + moi]
+[]Footer
 []trouvez de belle img [marina + moi]
 [] si image fini faire les alt
 []le text [marina]

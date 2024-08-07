@@ -1,7 +1,7 @@
 [X]pb
 [X]meme nav entre conclu et reste ou truc diff a voir et discuter avec marina
 [X]source en bas de chaque part avec des traits jolie
-[]mettre mon logo + mon portfolio qqpart
+[X]mettre mon logo + mon portfolio qqpart
 [X]carte [marina + moi]
 []Footer
 []trouvez de belle img [marina + moi]

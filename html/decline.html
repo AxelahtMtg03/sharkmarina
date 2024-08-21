@@ -25,18 +25,19 @@
           <li><a style="color: #0074ff;" href="/html/conclu.html">Conclu</a></li>
         </ul>
       </header>
-<br>
-<br>
-<br>
-<br>
+      <br>
+      <br><br><br><br>
+      <button style="width: 50px;float:inline-end;" onclick="topFunction()" id="myBtn" title="Go to top">
+        <p style="size: 100px;"><img style="width: 115px;" src="/ressource/Capture d'écran 2024-08-21 184920-Photoroom.png" alt=""></p>
+      </button>
       <main>
         <figure>
-          <img src="https://picsum.photos/800/600?random=12" alt="" />
+          <img style="aspect-ratio: 16 / 9;" src="https://picsum.photos/800/600?random=12" alt="" />
         </figure>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Voluptates ratione sapiente iusto molestias nulla placeat pariatur, sint reprehenderit aliquam, exercitationem nemo! Veniam, recusandae, est tenetur quaerat officiis totam repellendus porro.</p>
         <p>Provident ut iusto perferendis ratione, reiciendis, beatae nostrum deserunt architecto eum quas, minus dicta quibusdam quidem non eveniet corrupti dolorum quos laudantium sed perspiciatis! Natus aliquam, dolorum. Ullam, harum et.</p>
         <figure>
-          <img src="https://picsum.photos/800/600?random=18" alt="" />
+          <img style="aspect-ratio: 16 / 9;" src="https://picsum.photos/800/600?random=18" alt="" />
         </figure>
         <p>Unde ab nesciunt sit accusantium nulla quidem dolorum corporis id fugit debitis qui error exercitationem vero harum ipsam asperiores optio, quod aspernatur totam fugiat enim eum explicabo voluptatum impedit! Ab?</p>
         <p>Totam ullam consequuntur unde dolor voluptatum beatae provident repellat laboriosam nostrum eum laudantium illo recusandae, nemo. Et asperiores, quisquam, illum excepturi iusto possimus, fugiat debitis id architecto aperiam nihil, totam!</p>
@@ -44,7 +45,7 @@
         <p>Totam adipisci expedita non voluptas libero sint eaque commodi alias repellat natus voluptatem mollitia nesciunt atque, sit reiciendis, corrupti sunt nobis sed voluptates. Illo atque molestias doloribus dolorum vitae enim!</p>
         <p>Adipisci ab nesciunt eveniet beatae suscipit ullam exercitationem ea aspernatur a sed eligendi, qui consequatur? Illum id, dicta voluptas saepe numquam odio, officia et perferendis magni, voluptatum dolores at in?</p>
         <figure>
-          <img src="https://picsum.photos/800/600?random=24" alt="" />
+          <img style="aspect-ratio: 16 / 9;" src="https://picsum.photos/800/600?random=24" alt="" />
         </figure>
         <h1 style="text-align: center;font-size: 50px;">— Source —</h1>
         <p>Accusantium quam corrupti odio distinctio sunt nostrum dolorum ipsa provident deserunt nobis nesciunt, at non laudantium esse atque harum corporis facilis, aut iure beatae nihil repellendus? Commodi, asperiores unde quas.</p>
@@ -81,6 +82,25 @@
             </ul>
             <p class="wave__text" style="text-align: center;">2024 Made by <a href="https://axelarchambeault.vercel.app/" style="text-decoration: none;color:#ffffff;">Axel Archambeault</a></p>
         </footer>
-    </div>  
+    </div> 
+    <script>// Get the button
+      let mybutton = document.getElementById("myBtn");
+  
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+  
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+  
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }</script>
 </body>
 </html>

@@ -196,7 +196,10 @@ figure::after {
     border: 2px solid hsl(0 0% 50%);
     clip-path: inset(0 0 calc(100% - 4rem) calc(100% - 4rem));
 }
-
+iframe{
+  aspect-ratio: 16 / 9;
+    width: 100%;
+}
 img {
     width: 100%;
 }

@@ -214,6 +214,7 @@ main p {
     background-attachment: fixed;
     background-clip: text;
     color: transparent;
+    /* text-align:justify; */
 }
 
 
@@ -530,7 +531,7 @@ button {
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 10px;
+    bottom: -50px;
     right: 100px;
     z-index: 99;
     font-size: 50px;

@@ -49,15 +49,15 @@ Le site a été développé avec des **technologies web fondamentales**, afin de
 
 ### Page d’accueil
 
-![screenshot](./screenshots/homepage.png)
+![screenshot](./img/screen1.png)
 
 ### Page d’article
 
-![screenshot](./screenshots/article.png)
+![screenshot](./img/screen2.png)
 
-### Design et animations
+### Page de fin
 
-![screenshot](./screenshots/design.png)
+![screenshot](./img/screen3.png)
 
 ---
 
@@ -81,6 +81,8 @@ Il combine :
 
 **Marina Soland Ruillier**  
 📚 Recherche scientifique et collaboration
+
+
 ---
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer)

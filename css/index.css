@@ -1590,12 +1590,13 @@
     }
   
     .left-part {
-      padding: 40px 16px 60px;
+      padding: 43px 16px 103px;
     }
   
     .right-part {
       height: 334px;
       width: 334px;
+      display: none;
     }
   
     .left-part h1 .text {
@@ -1604,7 +1605,8 @@
   
     .left-part p {
       font-size: 12px;
-      width: 96%;
+      width: 100%;
+      line-height: 1.6;
     }
   
     .main-grid::before,
@@ -1635,6 +1637,21 @@
     .bg-circle-h-line {
       width: 126px;
       height: 65px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .left-part h1 {
+      font-size: clamp(90px, 12vw, 80px);
+    }
+  
+    .left-part p {
+      font-size: 10px;
+      line-height: 1.4;
+    }
+  
+    .left-part {
+      padding: 40px 10px 50px;
     }
   }
   
